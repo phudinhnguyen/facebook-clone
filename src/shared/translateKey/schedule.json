@@ -1,0 +1,102 @@
+{
+    "SCHEDULE": {
+        "USA": "Schedule",
+        "VNM": "Lịch"
+    },
+    "HOME": {
+        "USA": "Home",
+        "VNM": "Trang chủ"
+    },
+    "NAME": {
+        "USA": "Name",
+        "VNM": "Tên"
+    },
+    "DESCRIPTION": {
+        "USA": "Description",
+        "VNM": "Mô tả"
+    },
+    "start_day": {
+        "USA": "Start day",
+        "VNM": "Ngày bắt đầu"
+    },
+    "END_DAY": {
+        "USA": "End day",
+        "VNM": "Ngày kết thúc"
+    },
+    "End_TIME": {
+        "USA": "End time",
+        "VNM": "Giờ kết thúc"
+    },
+    "Start_TIME": {
+        "USA": "Start time",
+        "VNM": "Giờ bắt đầu"
+    },
+    "HELLO": {
+        "USA": "Hello",
+        "VNM": "Câu chào"
+    },
+    "BACKGROUND": {
+        "USA": "Background",
+        "VNM": "Ảnh nền"
+    },
+    "LIST_HELLO": {
+        "USA": "List hello",
+        "VNM": "Danh sách câu chào"
+    },
+    "LIST_WEATHER": {
+        "USA": "List weather",
+        "VNM": "Danh sách thời tiết"
+    },
+    "LIST_MEETING": {
+        "USA": "List meeting",
+        "VNM": "Danh sách cuộc họp"
+    },
+    "LIST_KEY": {
+        "USA": "List key",
+        "VNM": "Danh sách khóa"
+    },
+    "ACTION": {
+        "USA": "Action",
+        "VNM": "Hành động"
+    },
+    "DELETE": {
+        "USA": "Delete",
+        "VNM": "Xóa"
+    },
+    "ADD_SET": {
+        "USA": "Add set",
+        "VNM": "Thêm bộ"
+    },
+    "EDIT": {
+        "USA": "Edit",
+        "VNM": "Sửa"
+    },
+    "Repeat_according_to_the_schedule": {
+        "USA": "Repeat according to the schedule",
+        "VNM": "Lặp lại theo lịch"
+    },
+    "Priority": {
+        "USA": "Priority",
+        "VNM": "Độ ưu tiên"
+    },
+    "Start_date_and_end_date": {
+        "USA": "Start date and end date",
+        "VNM": "Ngày bắt đầu và ngày kết thúc"
+    },
+    "Hours_start_to_end": {
+        "USA": "Hours start to end",
+        "VNM": "Giờ bắt đầu giờ kết thúc"
+    },
+    "Image_background": {
+        "USA": "Image background",
+        "VNM": "Ảnh nền"
+    },
+    "scheduleBackgroundRepeat": {
+        "USA": "Schedule background repeat",
+        "VNM": "Lặp lại ảnh nền theo lịch"
+    },
+    "ADD": {
+        "USA": "Add",
+        "VNM": "Thêm"
+    }
+}

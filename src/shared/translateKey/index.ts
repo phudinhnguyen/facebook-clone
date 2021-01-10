@@ -1,0 +1,16 @@
+export const sidebar = require("./sidebar.json");
+export const router = require("./router.json");
+export const serverTranslateKey = require("./ServerTranslateKey.json");
+export const dashboard = require("./dashboard.json");
+export const page = require("./page.json");
+export const home = require("./home.json");
+export const common = require("./common.json");
+export const module = require("./module.json");
+export const language = require("./language.json");
+export const article = require("./article.json");
+export const schedule = require("./schedule.json");
+export const UserTranslateKey = require("./UserTranslateKey.json");
+export const menu = require('./menu.json');
+export const category = require('./category.json');
+export const rating = require('./rating.json');
+export const parameter = require('./parameter.json');

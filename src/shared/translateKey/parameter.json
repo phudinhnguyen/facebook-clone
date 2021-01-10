@@ -1,0 +1,38 @@
+{
+  "PARAMETER": {
+    "USA": "Parameter",
+    "VNM": "Tham số"
+  },
+  "KEY": {
+    "USA": "Key",
+    "VNM": "Từ khóa"
+  },
+  "PARAMETER_NAME": {
+    "USA": "PARAMETER NAME",
+    "VNM": "Tên tham số"
+  },
+  "PARAMETER_KEY": {
+    "USA": "PARAMETER KEY",
+    "VNM": "Từ khóa tham số"
+  },
+  "PARAMETER_TYPE": {
+    "USA": "PARAMETER TYPE",
+    "VNM": "Loại tham số"
+  },
+  "PARAMETER_VALUE": {
+    "USA": "PARAMETER VALUE",
+    "VNM": "Giá trị tham số"
+  },
+  "TEXT": {
+    "USA": "Text",
+    "VNM": "Chữ"
+  },
+  "ARRAY": {
+    "USA": "Array",
+    "VNM": "Mảng"
+  },
+  "OBJECT": {
+    "USA": "Object",
+    "VNM": "Đối tượng"
+  }
+}

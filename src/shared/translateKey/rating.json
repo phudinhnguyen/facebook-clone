@@ -1,0 +1,10 @@
+{
+  "RATING": {
+    "USA": "Rating",
+    "VNM": "Xếp hạng"
+  },
+  "EMPLOYEE": {
+    "USA": "Employee",
+    "VNM": "Người"
+  }
+}

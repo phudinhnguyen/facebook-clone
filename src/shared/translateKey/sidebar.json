@@ -1,0 +1,54 @@
+{
+  "DASHBOARD": {
+    "USA": "Dash board",
+    "VNM": "Trang chủ"
+  },
+  "SCHEDULE": {
+    "USA": "Schedule",
+    "VNM": "Lịch"
+  },
+  "SCHEDULE_BG": {
+    "USA": "Schedule BG",
+    "VNM": "Lịch nền"
+  },
+  "HELLO": {
+    "USA": "Hello",
+    "VNM": "Câu chào"
+  },
+  "PAGE": {
+    "USA": "Page",
+    "VNM": "Trang"
+  },
+  "LIST_PRODUCT": {
+    "USA": "Menu",
+    "VNM": "Thực đơn"
+  },
+  "MANAGER_ORDER": {
+    "USA": "Order",
+    "VNM": "Đơn hàng"
+  },
+  "CATEGORY": {
+    "USA": "Category",
+    "VNM": "Danh mục"
+  },
+  "RATING": {
+    "USA": "Rating",
+    "VNM": "Đánh giá"
+  },
+  "SYSTEM": {
+    "USA": "System setting",
+    "VNM": "Cài đặt hệ thống"
+  },
+  "LANGUAGE": {
+    "USA": "Language",
+    "VNM": "Ngôn ngữ"
+  },
+  "PARAMETER": {
+    "USA": "Parameter",
+    "VNM": "Tham số"
+  },
+  "MEDIA_ASSET": {
+    "USA": "Media",
+    "VNM": "Thư viện"
+  }
+}

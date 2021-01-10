@@ -1,0 +1,14 @@
+{
+  "CATEGORY": {
+    "USA": "Category",
+    "VNM": "Danh mục"
+  },
+  "LIST_CATEGORY": {
+    "USA": "List category",
+    "VNM": "Danh sách danh mục"
+  },
+  "ARTICLES": {
+    "USA": "Articles",
+    "VNM": "Bài viết"
+  }
+}
