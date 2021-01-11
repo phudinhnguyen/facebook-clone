@@ -1,4 +1,4 @@
-import DefaultLayout from "@components//layout";
+import DefaultLayout from "src/ui/shared/components/layout";
 import React, { useEffect } from "react";
 import { privateRouter } from "../privateRouter";
 import ShowRouter from "./ShowRouter";

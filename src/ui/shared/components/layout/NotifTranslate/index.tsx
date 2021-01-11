@@ -1,6 +1,6 @@
-import { CURRENT_LANGUAGE, USA } from "@config/index";
+import { CURRENT_LANGUAGE, USA } from "src/ui/shared/config/index";
 // import { notification } from 'alta-rc';
-import { serverTranslateKey } from "@translateKey/index";
+import { serverTranslateKey } from "src/ui/shared/translateKey/index";
 import { notification } from "antd";
 export type notification = "success" | "info" | "error" | "warning";
 
@@ -24,13 +24,13 @@ const notifiTranslate = (props: Props) => {
   let message = translateKey;
 
   if (
-    fileTranslateKey[translateKey] &&
-    fileTranslateKey[translateKey][currentLangue]
+    fileTranslateKey[ translateKey ] &&
+    fileTranslateKey[ translateKey ][ currentLangue ]
   ) {
-    message = fileTranslateKey[translateKey][currentLangue];
+    message = fileTranslateKey[ translateKey ][ currentLangue ];
   }
 
-  notification[type]({
+  notification[ type ]({
     message,
     placement: "bottomRight",
   });

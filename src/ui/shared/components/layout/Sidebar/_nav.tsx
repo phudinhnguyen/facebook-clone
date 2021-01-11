@@ -1,4 +1,4 @@
-import { MEDIA_ASSET } from "@config/index";
+import { MEDIA_ASSET } from "src/ui/shared/config/index";
 import {
   faAddressBook,
   faChurch,
@@ -16,7 +16,7 @@ import {
   faServer,
   faQuoteRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { sidebar } from "@translateKey/index";
+import { sidebar } from "src/ui/shared/translateKey/index";
 
 export interface INav {
   title: {

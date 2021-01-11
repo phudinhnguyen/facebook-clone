@@ -1,9 +1,9 @@
-import PrivateLogin from "@hoc//PrivateLogin";
-import PublicPage from "@routers/component/PublicPage";
+import PrivateLogin from "src/ui/shared/hoc/PrivateLogin";
+import PublicPage from "src/ui/shared/routers/component/PublicPage";
 import React, { Suspense } from "react";
 import { Switch } from "react-router-dom";
 
-const PrivatePage = React.lazy(() => import("@routers/component/PrivatePage"));
+const PrivatePage = React.lazy(() => import("src/ui/shared/routers/component/PrivatePage"));
 
 interface Iprops {
   privateLogin: boolean;

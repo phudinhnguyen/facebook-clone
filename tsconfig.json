@@ -19,14 +19,14 @@
 
       "@view/*": ["src/ui/view/*"],
 
-      "@assets/*": ["src/shared/assets/*"],
-      "@components/*": ["src/shared/components/*"],
-      "@config/*": ["src/shared/config/*"],
-      "@helper/*": ["src/shared/helper/*"],
-      "@routers/*": ["src/shared/routers/*"],
-      "@hoc/*": ["src/shared/hoc/*"],
-      "@hook/*": ["src/shared/hook/*"],
-      "@translateKey/*": ["src/shared/translateKey/*"],
+      "@assets/*": ["src/ui/shared/assets/*"],
+      "@components/*": ["src/ui/shared/components/*"],
+      "@config/*": ["src/ui/shared/config/*"],
+      "@helper/*": ["src/ui/shared/helper/*"],
+      "@routers/*": ["src/ui/shared/routers/*"],
+      "@hoc/*": ["src/ui/shared/hoc/*"],
+      "@hook/*": ["src/ui/shared/hook/*"],
+      "@translateKey/*": ["src/ui/shared/translateKey/*"],
     },
     "types": ["node", "lodash"]
   },
