@@ -9,34 +9,74 @@
     "allowSyntheticDefaultImports": true,
     "target": "es6",
     "jsx": "react",
-    "lib": ["es2018", "dom"],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "paths": {
-      "@recoil/*": ["src/core/adapters/recoil/*"],
-      "@entities/*": ["src/core/entities/*"],
-      "@frameworks/*": ["src/core/frameworks/*"],
-      "@api/*": ["src/core/services/api/*"],
-      "@useCases/*": ["src/core/useCases/*"],
-
-      "@view/*": ["src/ui/view/*"],
-
-      "@assets/*": ["src/ui/shared/assets/*"],
-      "@components/*": ["src/ui/shared/components/*"],
-      "@config/*": ["src/ui/shared/config/*"],
-      "@helper/*": ["src/ui/shared/helper/*"],
-      "@routers/*": ["src/ui/shared/routers/*"],
-      "@hoc/*": ["src/ui/shared/hoc/*"],
-      "@hook/*": ["src/ui/shared/hook/*"],
-      "@translateKey/*": ["src/ui/shared/translateKey/*"],
+      "@recoil/*": [
+        "src/adapters/recoil/*"
+      ],
+      "@entities/*": [
+        "src/domain/useCases/entities/*"
+      ],
+      "@frameworks/*": [
+        "src/frameworks/*"
+      ],
+      "@api/*": [
+        "src/core/services/api/*"
+      ],
+      "@useCases/*": [
+        "src/domain/useCases/*"
+      ],
+      "@view/*": [
+        "src/ui/view/*"
+      ],
+      "@assets/*": [
+        "src/ui/shared/assets/*"
+      ],
+      "@components/*": [
+        "src/ui/shared/components/*"
+      ],
+      "@config/*": [
+        "src/ui/shared/config/*"
+      ],
+      "@helper/*": [
+        "src/ui/shared/helper/*"
+      ],
+      "@routers/*": [
+        "src/ui/shared/routers/*"
+      ],
+      "@hoc/*": [
+        "src/ui/shared/hoc/*"
+      ],
+      "@hook/*": [
+        "src/ui/shared/hook/*"
+      ],
+      "@translateKey/*": [
+        "src/ui/shared/translateKey/*"
+      ],
     },
-    "types": ["node", "lodash"]
+    "types": [
+      "node",
+      "lodash"
+    ]
   },
-  "TypeRoots": ["node_modules/@types"],
-  "include": ["./src/**/*"],
+  "TypeRoots": [
+    "node_modules/@types"
+  ],
+  "include": [
+    "./src/**/*"
+  ],
   "lib": [
     //    "es5",
     "es2018",
     "dom",
     "es6"
   ],
-  "exclude": ["node_modules", "build", "scripts"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts"
+  ]
 }
