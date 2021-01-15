@@ -1,6 +1,5 @@
 import { SERVICES } from "src/ui/shared/config/index";
 import axios from "axios";
-import notifiTranslate from "src/ui/shared/components/layout/NotifTranslate";
 
 export interface IParamsApi {
   method?: "get" | "post" | "delete" | "put";
@@ -27,10 +26,7 @@ class Service {
 
   private handleSuccess(response, showSuccess) {
     if (showSuccess) {
-      notifiTranslate({
-        type: "success",
-        translateKey: response?.data?.data?.message,
-      })
+
     }
     return Promise.resolve(response.data);
   }
@@ -40,27 +36,18 @@ class Service {
     switch (status) {
       case 400: {
         if (showError) {
-          notifiTranslate({
-            type: "error",
-            translateKey: error?.response?.data?.message || "Something error",
-          })
+
         }
         break
       }
       case 401: {
-        notifiTranslate({
-          type: "error",
-          translateKey: error?.response?.data?.message || "No permission",
-        });
+
         window.location.reload();
         window.location.href = `/#/login`;
         break;
       }
       case 500: {
-        notifiTranslate({
-          type: "error",
-          translateKey: error?.response?.data?.message || "Server Error",
-        });
+
         break;
       }
       default: {
@@ -122,5 +109,3 @@ class Service {
 }
 
 export default new Service()
-
-export const apiServiceCRM = new Service(SERVICES.CRM_URL_BASE)
